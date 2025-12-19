@@ -68,7 +68,7 @@ const Home: React.FC = () => {
                 <div className="aspect-[4/5] bg-cover bg-center rounded-2xl shadow-2xl overflow-hidden" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAH9bjNwsK1F9y6gFcTc37DN9JwVUO_JqisU7Ja8zmYQkRrN4nDaj2xXM1Jr2_xBMQZRvNivgJQYGkS5Xt_4OKDneAzWUqEUG9lhDRgX4rc4UVYnZmyEXGN8re0itH2E-egF7ka1yY-Lh5aoXCMbhPbX4RA_Sh8YzcFH6d465camsCQszufd6s84lGP7vsZ8rwj3BonfZnXjUZ23is5cs4A1sitpz_q_fcTPiwyfUyxpu6p0Hum9KyXxxpaBUIxqckeSZzpwNS5jJru')" }}>
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
                   <div className="absolute bottom-8 left-8 text-white">
-                    <p className="font-serif text-3xl font-bold">Av. Zeynep Yılmaz</p>
+                    <p className="font-serif text-3xl font-bold">Av. Dilan Köremezli</p>
                     <p className="text-accent font-medium tracking-wide uppercase text-sm mt-1">Kurucu Avukat</p>
                   </div>
                 </div>

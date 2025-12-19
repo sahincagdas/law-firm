@@ -8,6 +8,7 @@ const Header: React.FC = () => {
 
   const navItems = [
     { label: 'Anasayfa', path: '/' },
+    { label: 'Hizmetlerimiz', path: '/services' },
     { label: 'Blog', path: '/blog' },
     { label: 'İletişim', path: '/contact' },
   ];
@@ -36,8 +37,8 @@ const Header: React.FC = () => {
                 key={item.path}
                 to={item.path}
                 className={`text-sm font-medium tracking-wide transition-colors hover:text-accent ${isActive(item.path)
-                    ? 'text-primary border-b-2 border-accent pb-1 font-bold'
-                    : 'text-secondary'
+                  ? 'text-primary border-b-2 border-accent pb-1 font-bold'
+                  : 'text-secondary'
                   }`}
               >
                 {item.label}

@@ -33,6 +33,7 @@ const Footer: React.FC = () => {
             <h4 className="font-bold mb-6 text-accent uppercase text-xs tracking-widest">Gezinti</h4>
             <ul className="space-y-4 text-sm text-gray-400">
               <li><Link to="/" className="hover:text-white transition-colors">Anasayfa</Link></li>
+              <li><Link to="/services" className="hover:text-white transition-colors">Hizmetlerimiz</Link></li>
               <li><Link to="/blog" className="hover:text-white transition-colors">Blog</Link></li>
               <li><Link to="/contact" className="hover:text-white transition-colors">İletişim</Link></li>
               <li><Link to="/admin" className="hover:text-accent/50 text-[10px] opacity-20">Yönetim Paneli</Link></li>

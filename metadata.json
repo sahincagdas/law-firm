@@ -1,0 +1,7 @@
+{
+  "name": "Lexington Law Firm",
+  "description": "A premium, professional law firm website featuring a comprehensive home page, a rich legal insights blog, and a streamlined contact interface.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

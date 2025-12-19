@@ -13,7 +13,7 @@ const Admin: React.FC = () => {
     excerpt: '',
     content: '',
     category: 'Şirketler Hukuku',
-    author: 'Av. Zeynep Yılmaz',
+    author: 'Av. Dilan Köremezli',
     imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070&auto=format&fit=crop',
     featured: false
   });
@@ -54,7 +54,7 @@ const Admin: React.FC = () => {
       excerpt: '',
       content: '',
       category: 'Şirketler Hukuku',
-      author: 'Av. Zeynep Yılmaz',
+      author: 'Av. Dilan Köremezli',
       imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070&auto=format&fit=crop',
       featured: false
     });

@@ -30,7 +30,7 @@ const Home: React.FC = () => {
     <div className="animate-in fade-in duration-700">
       {/* Hero Section */}
       <section className="relative h-[650px] flex items-center overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center z-0 transition-transform duration-[10s] hover:scale-110"
           style={{ backgroundImage: `linear-gradient(90deg, #1a2233 0%, rgba(26, 34, 51, 0.8) 50%, rgba(26, 34, 51, 0.4) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCHY4JJwiRgL1jSmn_kLYNrb1s2jO_Kgl6Q4xzV6TDYM11jipzgyMKn_1KnNwN5R0fIMJqF4-WabGqsAzMm8Meexw91kUYTczsru0_feu_BcdKMBAbNZWNIkSCzD10APhKJhycR_Sz4BOL-q1ZlvOqYiHRNqp4vm9o3YV9CT5A9x00flmjO74iopJDndbNlYX5frVxIaWkwFBcgOIHWOTiFW5i72bqXxf98XUbwiYZyQp-p2W1x-rEEh_GJWjvMyNP1R5nm-_tKBQd5')` }}
         ></div>
@@ -86,10 +86,10 @@ const Home: React.FC = () => {
             </div>
             <div className="w-full lg:w-7/12">
               <span className="text-accent font-bold tracking-[0.2em] uppercase text-xs mb-4 block">FİRMA HAKKINDA</span>
-              <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-8 leading-tight">Kararlı Savunuculuk, <br/>Kişiselleştirilmiş Strateji</h2>
+              <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-8 leading-tight">Kararlı Savunuculuk, <br />Kişiselleştirilmiş Strateji</h2>
               <div className="w-20 h-1 bg-accent mb-8"></div>
               <p className="text-secondary text-lg leading-relaxed mb-6">
-                Genellikle kişisel olmayan yoğunlukla tanımlanan hukuk dünyasında, Lexington Hukuk Bürosu farkını ortaya koyuyor. Her müvekkilin avukatına doğrudan erişimi hak ettiği ilkesi üzerine kurulan ofisimizde, büyük bir firmanın sofistike uzmanlığını butik bir uygulamanın çevikliği ve kişisel adanmışlığı ile sunuyoruz.
+                Genellikle kişisel olmayan yoğunlukla tanımlanan hukuk dünyasında, Dilan Köremezli Bürosu farkını ortaya koyuyor. Her müvekkilin avukatına doğrudan erişimi hak ettiği ilkesi üzerine kurulan ofisimizde, büyük bir firmanın sofistike uzmanlığını butik bir uygulamanın çevikliği ve kişisel adanmışlığı ile sunuyoruz.
               </p>
               <p className="text-secondary text-lg leading-relaxed mb-10">
                 Felsefemiz, hukukun derinlemesine anlaşılmasına ve sorun çözmeye yönelik stratejik bir yaklaşıma dayanmaktadır. Geleceğiniz için mümkün olan en iyi sonucu almaya kararlıyız.

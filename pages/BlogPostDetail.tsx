@@ -54,7 +54,7 @@ const BlogPostDetail: React.FC = () => {
                             </div>
                             <div className="flex flex-col">
                                 <span className="text-white font-bold">{post.author}</span>
-                                <span className="text-white/60 text-xs">Lexington Hukuk Yazarı</span>
+                                <span className="text-white/60 text-xs">Dilan Köremezli Yazarı</span>
                             </div>
                         </div>
                     </div>

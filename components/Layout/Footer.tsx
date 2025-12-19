@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
               <div className="flex items-center justify-center w-8 h-8 bg-accent rounded text-primary">
                 <span className="material-symbols-outlined text-xl">balance</span>
               </div>
-              <h3 className="text-xl font-bold font-serif text-white">Lexington Hukuk</h3>
+              <h3 className="text-xl font-bold font-serif text-white">Dilan Köremezli</h3>
             </div>
             <p className="text-gray-400 mb-8 max-w-sm leading-relaxed">
               Topluluğumuz için erişilebilir, yüksek kaliteli yasal temsil ve basitleştirilmiş hukuk eğitimi sağlamaya adanmıştır.
@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-sm text-gray-400">
               <li className="flex gap-3">
                 <span className="material-symbols-outlined text-accent text-lg">location_on</span>
-                <span>Hukuk Caddesi No: 123, Kat: 1<br/>Beşiktaş, İstanbul 34353</span>
+                <span>Hukuk Caddesi No: 123, Kat: 1<br />Beşiktaş, İstanbul 34353</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-accent text-lg">call</span>
@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-gray-800 text-center md:text-left">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-[11px] text-gray-500">
-            <p>© 2024 Lexington Hukuk Bürosu. Tüm Hakları Saklıdır.</p>
+            <p>© 2024 Dilan Köremezli Bürosu. Tüm Hakları Saklıdır.</p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-accent">Gizlilik Politikası</a>
               <a href="#" className="hover:text-accent">Kullanım Koşulları</a>

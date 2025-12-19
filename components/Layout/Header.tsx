@@ -24,7 +24,7 @@ const Header: React.FC = () => {
               <span className="material-symbols-outlined text-2xl">balance</span>
             </div>
             <div className="flex flex-col">
-              <h1 className="text-primary text-xl font-serif font-bold leading-tight tracking-tight">Lexington Hukuk</h1>
+              <h1 className="text-primary text-xl font-serif font-bold leading-tight tracking-tight">Dilan Köremezli</h1>
               <span className="text-[10px] uppercase tracking-widest text-accent font-semibold leading-none">Avukatlık & Danışmanlık</span>
             </div>
           </Link>
@@ -35,11 +35,10 @@ const Header: React.FC = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-sm font-medium tracking-wide transition-colors hover:text-accent ${
-                  isActive(item.path) 
-                    ? 'text-primary border-b-2 border-accent pb-1 font-bold' 
+                className={`text-sm font-medium tracking-wide transition-colors hover:text-accent ${isActive(item.path)
+                    ? 'text-primary border-b-2 border-accent pb-1 font-bold'
                     : 'text-secondary'
-                }`}
+                  }`}
               >
                 {item.label}
               </Link>
@@ -51,8 +50,8 @@ const Header: React.FC = () => {
             <a href="tel:02125551234" className="text-primary font-bold text-sm hover:text-accent transition-colors">
               0 (212) 555 12 34
             </a>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold shadow-lg shadow-primary/20 hover:bg-burgundy transition-all hover:-translate-y-0.5"
             >
               Danışmanlık Al
@@ -60,7 +59,7 @@ const Header: React.FC = () => {
           </div>
 
           {/* Mobile Toggle */}
-          <button 
+          <button
             className="md:hidden p-2 text-primary"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -78,9 +77,8 @@ const Header: React.FC = () => {
             <Link
               key={item.path}
               to={item.path}
-              className={`block text-base font-medium py-2 ${
-                isActive(item.path) ? 'text-accent font-bold' : 'text-secondary'
-              }`}
+              className={`block text-base font-medium py-2 ${isActive(item.path) ? 'text-accent font-bold' : 'text-secondary'
+                }`}
               onClick={() => setIsMenuOpen(false)}
             >
               {item.label}
@@ -88,8 +86,8 @@ const Header: React.FC = () => {
           ))}
           <div className="pt-4 border-t border-gray-100 flex flex-col gap-4">
             <a href="tel:02125551234" className="text-primary font-bold">0 (212) 555 12 34</a>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="w-full bg-primary text-white text-center py-3 rounded-lg font-bold"
               onClick={() => setIsMenuOpen(false)}
             >

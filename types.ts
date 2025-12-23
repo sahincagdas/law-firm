@@ -20,8 +20,8 @@ export interface BlogPost {
   category: string;
   date: string;
   author: string;
-  imageUrl: string;
-  featured?: boolean;
+imageUrl: string;
+featured ?: boolean;
 }
 
 export interface Testimonial {
